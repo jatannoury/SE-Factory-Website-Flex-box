@@ -26,3 +26,10 @@
     background-color: rgb(41, 36, 36);
 }
 
+.back-img{ 
+    background-image: url("../photos/IMG_9780.jfif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x:50% ;
+    height:1000px;
+}
