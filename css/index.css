@@ -448,15 +448,13 @@
    .box-8 p{
        margin-top: 6%;
    }
-   .container-5-1{
-       display:flex;
-       justify-content: space-evenly;
-   }
+ 
    .box-10{
         max-width:400px;
         max-height: 600px;
         margin-left: 0%;
         font-size: 50%;
+        
    }
    .box-11{
     max-width:400px;
@@ -467,5 +465,15 @@
    }
    .box-9{
        padding-bottom: 10%;
+   }
+   .container-6{
+       display:flex;
+   }
+   .box-12{
+       flex-basis:80%;
+   }
+   .container-5-1{
+    display:flex;
+    justify-content: space-around;
    }
   }
