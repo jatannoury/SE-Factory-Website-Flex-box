@@ -1,8 +1,145 @@
 
-@media (min-width: 400px) and (max-width:767){
+
     .container-1{
         display:flex;
     }
+     
+    .container-2{
+        display: inline-flexbox;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+    .container-3{
+        text-align: center;
+    }
+    .container-4{
+        padding-left: 10%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .container-4 img{
+        height:100%;
+        width:90%;
+    }
+    .container-4 p{
+        
+        font-size: 300%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top:0;
+    }
+    .container-4 h1{
+     
+        font-size: 300%;
+        margin:0 0 0 0;
+    }
+    .container-5{
+        height:2000px;
+        background-color:#1CC018 ;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .container-6 p{
+        margin:0 0 0 0 ;
+        margin-top: 5%;
+        font-size: 120%;
+    }
+    .container-7{
+        padding-left: 7%;
+
+        font-size: 250%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+    }
+    .container-7 div, .container-7 h4{
+        display: inline;
+        text-align: center;
+    }
+    .container-8 img{
+        width:100%;
+        padding-left: 15%;
+        padding-top: 10%;
+        height: 200%;
+    }
+    .container-10{
+        background-color: #E6E6E6;
+        padding:0 0 0 0;
+    }
+    .container-10 div{
+        height:100%;
+    }
+    .container-10 p{
+        font-size: 250%;
+        text-align: center;
+        padding-top: 10%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:700;
+    }
+    .container-11 p{
+        font-size: 250%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+    }
+
+    .container-11 hr{
+        border-top: 3px solid black;
+        width:90%;
+        margin-bottom: 10%;
+    }
+    .container-11 .box-16 img{
+        margin-top: 10%;
+        width:100%;
+        margin-left: 0;
+    }
+    .container-12 h3{
+        font-size: 250%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        margin:0 0 0 0;
+        padding-top:10%;
+    }
+    .container-12 {
+        background-color: #E6E6E6;
+        margin-top: 10%;
+        
+    }
+    .container-12 p{
+        margin: 0 0 0 13%;
+        text-align: center;
+        font-size: 250%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width:80%;
+        font-weight:500;
+    }
+    .container-13{
+        background-color: black;
+        text-align: center;
+        height:100%;
+    }
+    .container-13 p{
+        color:#1CC018;
+        text-decoration: underline;
+        height:100%;
+        font-size:150%;
+        text-align: start;
+        margin-left: 5%;
+        margin: 0 0 0 0;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .container-14{
+        display:flex;
+        font-size: 50px;
+        color:white;
+        justify-content: end;
+
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
     .box-1{
         padding-top: 4%;
         padding-bottom: 4%;
@@ -12,12 +149,12 @@
     }
     .box-1 img{
         height:100%;
-        width:20%;
+        width:15%;
         
     }
     .box-2{
        
-        padding-top: 4%;
+        padding-top: 2%;
         padding-bottom: 4%;
         justify-content: center;
     }
@@ -28,119 +165,43 @@
         background-color: rgb(41, 36, 36);
     }
     
-    .back-img{ 
-        background-image: url("../photos/IMG_9780.jfif");
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position-x:50% ;
-    }
-    
-    .container-2{
-        display: inline-flexbox;
-        padding-left: 10%;
-        padding-right: 10%;
-        
-    }
-    
+   
+   
     .box-3{
-        font-size: 50px;
+        font-size:150%;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding-top: 60%;
+        padding-top: 20%;
         color:white;
+        width:60%;
     }
-    .containerIntro h1, .containerIntro p {
-        display: inline;
-    }
-    
-    .containerIntro h1, .containerIntro p {
-        display: inline;
-    }
-    .Learn-More{
-        border: 1px solid #1CC018;
-        background-color: #1CC018;
-        color:white;
-        border-radius:20px;
-        font:bolder;
-        text-align: center;
-        width:40%;
-        height:100%;
-       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .box-4{
-        height:100px;
-        padding-bottom: 10%;
-    }
-    .container-3{
-        text-align: center;
-    }
-    .box-5,.box-6,.box-7{
-        height:500px;
-    
-    }
-    .percentage{
-        color:#1CC018 ;
-        font-size: 500%;
-        height:30%;
-    }
-    .sub-percentage{
-        height:30%;
-        font-size: 50px;
-        font-weight:700;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-       
-    }
-    .sub-box{
-        width:50%;
-        padding-left: 25%;
-    }
-    .sub-box-1{
-        width:40%;
-        padding-left: 30%;
-    }
-    .sub-box-2{
-        width:80%;
-        padding-left: 10%;
-    }
-    .container-4{
-        padding-left: 10%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        height: 1300px;
-    }
-    .container-4 img{
-        height:100%;
-        width:90%;
-    }
-    .container-4 p{
-        height:20%;
-        font-size: 90px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    .container-4 h1{
-        height:30%;
-        font-size: 90px;
+    .box-3 h1{
         margin:0 0 0 0;
     }
+    .box-3 p{
+        margin-top:0;
+    }
+    .box-4{
+        height:50px;
+        width:50%;
+        padding-bottom: 15%;
+        padding-top: 8%;
+    }
+
+    .box-5,.box-6,.box-7{
+        height:30%;
+    }
+   
+  
     .box-8 p{
-        font-size: 50px;
+        font-size: 200%;
         width:70%;
         padding-left: 10%;
     }
-    .Learn{
-        padding-left: 19%;
-        color: #1CC018;
-        text-decoration: underline;
-        margin-bottom: 10%;
-    }
-    .container-5{
-        height:2000px;
-        background-color:#1CC018 ;
-        justify-content: center;
-        margin-bottom: 10%;
-    }
+   
+ 
     .box-9{
         text-align: center;
-        height:20%;
+        height:10%;
         width:70%;
         font-size: 100%;
         color:white;
@@ -151,11 +212,13 @@
     .box-9 h2{
         font-weight:bold;
         margin: 0 0 0 0;
-        font-size: 70px; 
-        width:100%;
+        font-size: 300%; 
+        width:80%;
+        text-align: center;
+        padding-left: 5%;
     }
     .box-9 p{
-        font-size: 70px;
+        font-size: 300%;
         margin: 0 0 0 0;
         width:80%;
         padding-left: 5%;
@@ -179,22 +242,100 @@
         bottom: 2%;
         
     }
-    .headd{
-        padding-left:10%;
-        height:10%;
-        padding-top: 5%;
-        font-size: 200%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight:700;
-        color:rgb(180, 177, 177);
+    .box-11 .Learn, .Flex .Learn{
+        color:black;
+        text-decoration: none;
+        padding-left: 0;
+        
     }
-    .content{
-        padding-left:10%;
-        height:20%;
-       font-size: 300%;
-       margin: 0 0 0 0;
-       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    .box-12{
+        font-size: 250%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 5%;
+    }
+    .box-13{
+        justify-content: center;
+        width:90%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-left: 10%;
+        font-size: 150%;
+    }
+  
+    .box-14{
+        font-size:80%;
+        
+    }
+    .box-15{
+
+        text-align: center;
+        margin-top: 10%;
+        font-size: 50%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+    }
+    .box-15 span{
        
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  
+    .box-16 img{/*How to - center images. How To Center an Image. (n.d.). Retrieved May 14, 2022, from https://www.w3schools.com/howto/howto_css_image_center.asp */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 5%;
+      width: 70%;
+      height:100%; 
+
+    }
+    
+
+    .box-17 img{
+        max-width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .box-18{
+        color:white;
+        height:100px;
+        font-size:150%;
+        margin-left: 10%;
+        margin-right:10%;
+        padding-top: 5%;
+        font-weight: 700;
+    }
+    .back-img{ 
+        background-image: url("../photos/IMG_9780.jfif");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position-x:50% ;
+    }
+
+    .percentage{
+        color:#1CC018 ;
+        font-size: 300%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .sub-percentage{
+        width:50%;
+        font-size: 150%;
+        font-weight:700;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       padding-left: 25%;
+    }
+    .sub-box{
+        width:50%;
+        padding-left: 25%;
+    }
+    .sub-box-1{
+        width:40%;
+        padding-left: 30%;
+    }
+    .sub-box-2{
+        width:80%;
+        padding-left: 10%;
     }
     .hr{
         border-top: 5px solid black;
@@ -221,344 +362,15 @@
         color:#1CC018;
         padding-left: 3%;
     }
-    .container-6{
-        margin-left: 5%;
-    }
-    .container-6 p{
-        margin:0 0 0 0 ;
-        margin-top: 10%;
-        font-size: 120%;
-    }
-    .box-12{
-        font-size: 400%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .box-13{
-        justify-content: center;
-        width:70%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding-left: 10%;
-        font-size: 250%;
-    }
-    .container-7{
-        padding-left: 7%;
-        margin-top: 10%;
-        font-size: 400%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-    }
-    .container-7 div, .container-7 h4{
-        display: inline;
-        text-align: center;
-    }
-    .box-14{
-        font-size:80%;
-        
-    }
-    .box-15{
-        text-align: center;
-        margin-top: 10%;
-        font-size: 200%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-    }
-    .box-15 span{
-        padding-left: 1%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .container-8 img{
-        width:100%;
-        padding-left: 15%;
-        padding-top: 10%;
-        height: 200%;
-    }
-    .container-10{
-        background-color: #E6E6E6;
-        
-    }
-    .container-10 div{
-        height:300px;
-    }
-    .box-16 img{/*How to - center images. How To Center an Image. (n.d.). Retrieved May 14, 2022, from https://www.w3schools.com/howto/howto_css_image_center.asp */
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      height:100%; 
-      width:100%;
-    }
-    .container-10 p{
-        font-size: 400%;
-        text-align: center;
-        padding-top: 10%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight:700;
-    }
-    .container-11 p{
-        font-size: 500%;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 700;
-    }
-    .box-17 img{
-        max-width: 100%;
-    }
-    .container-11 hr{
-        border-top: 3px solid black;
-        width:90%;
-        margin-bottom: 10%;
-    }
-    .container-11 .box-16{
-        margin-top: 10%;
-    }
-    .container-12 h3{
-        font-size: 500%;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 700;
-        margin:0 0 0 0;
-        padding-top:10%;
-    }
-    .container-12 {
-        background-color: #E6E6E6;
-        margin-top: 10%;
-        
-    }
-    .container-12 p{
-        margin: 0 0 0 13%;
-        text-align: center;
-        font-size: 400%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        width:80%;
-        font-weight:500;
-    }
-    button{
-        height:110px;
-        background-color:black;
-        border-radius: 20px;
-        font-weight:600;
-        color: #eeeeee;
-        text-align: center;
-        font-size: 40px;
-        padding: 20px;
-        width: 300px;
-        margin: 5px;
-        margin-left: 35%;
-        margin-top: 10%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .container-13{
-        background-color: black;
-        text-align: center;
-        height:350px;
-    }
-    .container-13 p{
-        color:#1CC018;
-        text-decoration: underline;
-        height:70px;
-        font-size:40px;
-        text-align: start;
-        margin-left: 5%;
-        margin: 0 0 0 0;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding-top: 5%;
-        padding-left: 5%;
-    }
-    .box-18{
-        color:white;
-        height:100px;
-        font-size:40px;
-        margin-left: 10%;
-        margin-right:10%;
-    }
-    .container-14{
-        display:flex;
-        font-size: 50px;
-        color:white;
-        justify-content: end;
-        padding-top:5%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-}
-@media (min-width:767px){
-    .container-1{
-        display:flex;
-    }
-    .box-1{
-        padding-top: 4%;
-        padding-bottom: 4%;
-        padding-left: 6%;
-        flex-basis:80%;
-        
-    }
-    .box-1 img{
-        height:100%;
-        width:20%;
-        
-    }
-    .box-2{
-       
-        padding-top: 4%;
-        padding-bottom: 4%;
-        justify-content: center;
-    }
-    .box-2 div{  /*How to - menu icon. How To Create a Menu Icon. (n.d.). Retrieved May 13, 2022, from https://www.w3schools.com/howto/howto_css_menu_icon.asp */
-        margin-top: 20%;
-        width: 70px;
-        height: 5px;
-        background-color: rgb(41, 36, 36);
-    }
-    
-    .back-img{ 
-        background-image: url("../photos/IMG_9780.jfif");
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position-x:50% ;
-    }
-    
-    .container-2{
-        display: inline-flexbox;
-        padding-left: 10%;
-        padding-right: 10%;
-        
-    }
-    
-    .box-3{
-        font-size: 50px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding-top: 60%;
-        color:white;
-    }
-    .containerIntro h1, .containerIntro p {
-        display: inline;
-    }
-    
-    .containerIntro h1, .containerIntro p {
-        display: inline;
-    }
-    .Learn-More{
-        border: 1px solid #1CC018;
-        background-color: #1CC018;
-        color:white;
-        border-radius:20px;
-        font:bolder;
-        text-align: center;
-        width:40%;
-        height:100%;
-       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .box-4{
-        height:100px;
-        padding-bottom: 10%;
-    }
-    .container-3{
-        text-align: center;
-    }
-    .box-5,.box-6,.box-7{
-        height:500px;
-    
-    }
-    .percentage{
-        color:#1CC018 ;
-        font-size: 500%;
-        height:30%;
-    }
-    .sub-percentage{
-        height:30%;
-        font-size: 50px;
-        font-weight:700;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-       
-    }
-    .sub-box{
-        width:50%;
-        padding-left: 25%;
-    }
-    .sub-box-1{
-        width:40%;
-        padding-left: 30%;
-    }
-    .sub-box-2{
-        width:80%;
-        padding-left: 10%;
-    }
-    .container-4{
-        padding-left: 10%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        height: 1300px;
-    }
-    .container-4 img{
-        height:100%;
-        width:90%;
-    }
-    .container-4 p{
-        height:20%;
-        font-size: 90px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    .container-4 h1{
-        height:30%;
-        font-size: 90px;
-        margin:0 0 0 0;
-    }
-    .box-8 p{
-        font-size: 50px;
-        width:70%;
-        padding-left: 10%;
-    }
     .Learn{
+        display:flex;
         padding-left: 19%;
         color: #1CC018;
         text-decoration: underline;
         margin-bottom: 10%;
-    }
-    .container-5{
-        height:2000px;
-        background-color:#1CC018 ;
-        justify-content: center;
-        margin-bottom: 10%;
-    }
-    .box-9{
-        text-align: center;
-        height:20%;
-        width:70%;
-        font-size: 100%;
-        color:white;
+        margin-top:3%;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding-left: 18%;
-    }
-    
-    .box-9 h2{
-        font-weight:bold;
-        margin: 0 0 0 0;
-        font-size: 70px; 
-        width:100%;
-    }
-    .box-9 p{
-        font-size: 70px;
-        margin: 0 0 0 0;
-        width:80%;
-        padding-left: 5%;
-    }
-    .box-10{
-        height:35%;
-        width:60%;
-        justify-content: center;
-        margin-left: 20%;
-        border:10px solid black;
-        border-radius:20px;
-        margin-bottom: 10%;
-    }
-    .box-11{
-        border: 1px solid white;
-        border-radius:20px;
-        background-color: white;
-        height:100%;
-        position: relative;
-        right: 2.5%;
-        bottom: 2%;
-        
+        font-size: 160%;
     }
     .headd{
         padding-left:10%;
@@ -577,187 +389,23 @@
        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
        
     }
-    .hr{
-        border-top: 5px solid black;
-        width:5%;
-        margin-left: 11%;
-        margin-bottom: 10%;
-    }
-    .sub-content{
-        padding-left: 11%;
-        height:40%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 200%;
-        font-weight: 500;
-    }
-    .Flex{
-        padding-left: 11%;
-        font-weight: 500;
-        font-size: 150%;
-        display: flex;
-    }
-    .Arrow{
-        padding-top: 8%;
-        width:40%;
-        color:#1CC018;
-        padding-left: 3%;
-    }
-    .container-6{
-        margin-left: 5%;
-    }
-    .container-6 p{
-        margin:0 0 0 0 ;
-        margin-top: 10%;
-        font-size: 120%;
-    }
-    .box-12{
-        font-size: 400%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .box-13{
-        justify-content: center;
-        width:70%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding-left: 10%;
-        font-size: 250%;
-    }
-    .container-7{
-        padding-left: 7%;
-        margin-top: 10%;
-        font-size: 400%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-    }
-    .container-7 div, .container-7 h4{
-        display: inline;
-        text-align: center;
-    }
-    .box-14{
-        font-size:80%;
-        
-    }
-    .box-15{
-        text-align: center;
-        margin-top: 10%;
-        font-size: 200%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-    }
-    .box-15 span{
-        padding-left: 1%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .container-8 img{
-        width:100%;
-        padding-left: 15%;
-        padding-top: 10%;
-        height: 200%;
-    }
-    .container-10{
-        background-color: #E6E6E6;
-        
-    }
-    .container-10 div{
-        height:300px;
-    }
-    .box-16 img{/*How to - center images. How To Center an Image. (n.d.). Retrieved May 14, 2022, from https://www.w3schools.com/howto/howto_css_image_center.asp */
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      height:100%; 
-      width:100%;
-    }
-    .container-10 p{
-        font-size: 400%;
-        text-align: center;
-        padding-top: 10%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight:700;
-    }
-    .container-11 p{
-        font-size: 500%;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 700;
-    }
-    .box-17 img{
-        max-width: 100%;
-    }
-    .container-11 hr{
-        border-top: 3px solid black;
-        width:90%;
-        margin-bottom: 10%;
-    }
-    .container-11 .box-16{
-        margin-top: 10%;
-    }
-    .container-12 h3{
-        font-size: 500%;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 700;
-        margin:0 0 0 0;
-        padding-top:10%;
-    }
-    .container-12 {
-        background-color: #E6E6E6;
-        margin-top: 10%;
-        
-    }
-    .container-12 p{
-        margin: 0 0 0 13%;
-        text-align: center;
-        font-size: 400%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        width:80%;
-        font-weight:500;
-    }
     button{
-        height:110px;
+
         background-color:black;
-        border-radius: 20px;
+        border-radius: 10px;
         font-weight:600;
         color: #eeeeee;
         text-align: center;
-        font-size: 40px;
-        padding: 20px;
-        width: 300px;
+        font-size: 200%;
+        padding: 1%;
+        width: 20%;
         margin: 5px;
-        margin-left: 35%;
+        margin-left: 42%;
         margin-top: 10%;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .container-13{
-        background-color: black;
-        text-align: center;
-        height:350px;
-    }
-    .container-13 p{
-        color:#1CC018;
-        text-decoration: underline;
-        height:70px;
-        font-size:40px;
-        text-align: start;
-        margin-left: 5%;
-        margin: 0 0 0 0;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding-top: 5%;
-        padding-left: 5%;
-    }
-    .box-18{
-        color:white;
-        height:100px;
-        font-size:40px;
-        margin-left: 10%;
-        margin-right:10%;
-    }
-    .container-14{
-        display:flex;
-        font-size: 50px;
-        color:white;
-        justify-content: end;
-        padding-top:5%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+   ion-icon{
+       padding-top: 130%;
+   }
+   @media(min-width:768px){
 }
