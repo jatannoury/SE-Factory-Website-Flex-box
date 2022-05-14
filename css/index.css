@@ -7,6 +7,7 @@
         display: inline-flexbox;
         padding-left: 10%;
         padding-right: 10%;
+        padding-bottom: 5%;
         
     }
     .container-3{
@@ -183,10 +184,15 @@
         margin-top:0;
     }
     .box-4{
-        height:50px;
-        width:50%;
-        padding-bottom: 15%;
-        padding-top: 8%;
+        padding-bottom: 1%;
+        padding-top: 0  %;
+        border:3px solid #1CC018;
+        background-color: #1CC018;
+        border-radius: 20px;
+        width:15%;
+        height:20%;
+        color:white;
+        text-align:center;
     }
 
     .box-5,.box-6,.box-7{
@@ -413,7 +419,7 @@
 
 
 
-  
+
    @media all and (min-width: 1000px) {
     .container-3{
         display: flex;
@@ -493,5 +499,22 @@
    }
    .container-11-1 .box-16 img{
        width:120%;
+   }
+   .box-2{display: none;}
+   .content{
+       padding-left: 2%;
+       padding-bottom: 2%;
+   }
+   .hr{
+       margin-left: 3%;
+   }
+   .headd{
+       padding-left: 2%;
+   }
+   .box-2 div{
+    margin-top: 0;
+    width: 0;
+    height: 0;
+
    }
   }
