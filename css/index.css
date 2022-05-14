@@ -488,4 +488,10 @@
    .container-10 p {
        padding-top: 5%;
    }
+   .container-11-1{
+       display:flex;
+   }
+   .container-11-1 .box-16 img{
+       width:120%;
+   }
   }
