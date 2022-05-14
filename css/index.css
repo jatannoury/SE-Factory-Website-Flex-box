@@ -206,6 +206,10 @@
         width:70%;
         padding-left: 10%;
     }
+    .box-8 .Learn{
+        font-size: 100%;
+        padding: 0 0 0 0;
+    }
    
  
     .box-9{
@@ -453,6 +457,7 @@
    }
    .box-8 p{
        margin-top: 6%;
+       
    }
  
    .box-10{
