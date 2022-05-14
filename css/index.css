@@ -476,4 +476,16 @@
     display:flex;
     justify-content: space-around;
    }
+   .container-10-1{
+       display:flex;
+   }
+   .container-10-2{
+    display:flex;
+}
+   .box-16 img{
+       flex-basis:50%;
+   }
+   .container-10 p {
+       padding-top: 5%;
+   }
   }
