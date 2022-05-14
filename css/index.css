@@ -263,3 +263,25 @@
     padding-top: 10%;
     height: 200%;
 }
+.container-10{
+    background-color: #E6E6E6;
+    
+}
+.container-10 div{
+    height:300px;
+}
+.box-16 img{/*How to - center images. How To Center an Image. (n.d.). Retrieved May 14, 2022, from https://www.w3schools.com/howto/howto_css_image_center.asp */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:100%; 
+  width:100%;
+}
+.container-10 p{
+    font-size: 400%;
+    text-align: center;
+    padding-top: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:700;
+}
