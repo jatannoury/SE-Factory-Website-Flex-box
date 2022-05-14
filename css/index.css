@@ -294,3 +294,11 @@
 .box-17 img{
     max-width: 100%;
 }
+.container-11 hr{
+    border-top: 3px solid black;
+    width:90%;
+    margin-bottom: 10%;
+}
+.container-11 .box-16{
+    margin-top: 10%;
+}
