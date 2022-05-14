@@ -185,11 +185,11 @@
     }
     .box-4{
         padding-bottom: 1%;
-        padding-top: 0  %;
+        padding-top: 0%;
         border:3px solid #1CC018;
         background-color: #1CC018;
         border-radius: 20px;
-        width:15%;
+        width: 12%;
         height:20%;
         color:white;
         text-align:center;
@@ -498,7 +498,7 @@
        display:flex;
    }
    .container-11-1 .box-16 img{
-       width:120%;
+       width:100%;
    }
    .box-2{display: none;}
    .content{
@@ -515,6 +515,48 @@
     margin-top: 0;
     width: 0;
     height: 0;
-
    }
+   .box-1{
+       flex-basis:100%;
+       padding: 1% 0 0 7% ;
+   }
+   .Large{
+       display: flex;
+       width:120%;
+   }
+   .info{
+       flex-basis:150%;
+       padding-top: 6%;
+       color:white;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight: 700;
+   }
+   .container-13{
+       display: flex;
+   }
+   .container-13:nth-child(1){
+        text-align: center;
+   }
+   .container-13 p{
+        width:100%;
+        height:30%;
+        padding-top: 53%;
+        padding-left: 100%;
+        
+   }
+   .box-18{
+       padding-left: 15%;
+       
+   }
+    .container-1 button{
+       margin:0 0 0 0;
+       padding: 0 0 0 0;
+       font-size: 80%;
+       height:40%;
+       margin-top: 4.5%;
+       background-color: #1CC018;
+   }
+  }
+  @media all and (max-width:1000px){
+      .container-1 span{display:none;}
   }
