@@ -428,5 +428,25 @@
         padding-left: 0;
         width:100%;
     }
-   
+    .container-4{
+        display:flex;
+    }
+   .box-7{
+       font-size: 90%;
+   }
+   .box-7 .Learn{
+       padding:0 0 0 10%;
+       margin-top: 0;
+       width:60%;
+   }
+   .box-7 .Learn p{
+    width:30%;
+    height:10%;
+    font-size: 100%;
+    padding:0 0 0 0;
+   }
+   .box-8 p{
+       margin-top: 6%;
+   }
+
   }
