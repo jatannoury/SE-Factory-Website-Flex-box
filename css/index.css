@@ -424,7 +424,7 @@
 
 
 
-   @media all and (min-width: 1000px) {
+   @media all and (min-width: 1075px) {
     .container-3{
         display: flex;
         justify-content: space-around;
@@ -562,6 +562,6 @@
        background-color: #1CC018;
    }
   }
-  @media all and (max-width:1000px){
+  @media all and (max-width:1080px){
       .container-1 span{display:none;}
   }
